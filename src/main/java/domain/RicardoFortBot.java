@@ -15,7 +15,7 @@ public class RicardoFortBot extends TelegramLongPollingBot {
 
     @Override
     public String getBotToken() {
-        return "1534746875:AAFEj1tCQNRamBXIhdcHvTbIGNFB0xNVKYE";
+        return "123456789:123456789";
     }
 
     @Override
