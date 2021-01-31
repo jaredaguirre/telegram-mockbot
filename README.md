@@ -7,3 +7,11 @@ The pom.xml file contains the necessary dependencies to work on a maven environm
 
 Procfile is just a necessary file for running the proyect on the Heroku Cloud. The file just describes the command that the Heroku container should run when starting the application.
 
+## Error i'm getting:
+```
+agujared@38f9d3a7605b:~/Desktop/telegram-bot$ heroku local web
+7:01:48 AM web.1 |  Error: Unable to initialize main class domain.Main
+7:01:48 AM web.1 |  Caused by: java.lang.NoClassDefFoundError: org/telegram/telegrambots/meta/exceptions/TelegramApiException
+[DONE] Killing all processes with signal  SIGINT
+7:01:48 AM web.1 Exited with exit code null
+```
